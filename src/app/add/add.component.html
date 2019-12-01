@@ -1,0 +1,30 @@
+
+<form #addFormdata="ngForm" (ngSubmit)="Addrecordfunction(addFormdata)">
+
+    <legend>Add Data</legend>
+
+    <div class="form-group">
+        <label for="">Country</label>
+        <input ngModel type="text" class="form-control" id="Country" name="Country" placeholder="Input field">
+    </div>
+
+    <div class="form-group">
+        <label for="">Year</label>
+        <input ngModel type="text" class="form-control" id="Year" name="Year" placeholder="Input field">
+    </div>
+
+    <div class="form-group">
+        <label for="">No of Team</label>
+        <input ngModel type="text" class="form-control" id="NoofTeam" name="NoofTeam" placeholder="Input field">
+    </div>
+
+    <div class="form-group">
+        <label for="">Venue</label>
+        <input ngModel type="text" class="form-control" id="Venue" name="Venue" placeholder="Input field">
+    </div>
+
+    
+    <button type="submit" class="btn btn-primary">Submit</button>
+    
+</form>
+
